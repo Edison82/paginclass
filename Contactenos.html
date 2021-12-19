@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metaverso</title>
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./contactenos.css">
+</head>
+<body>
+
+    <nav>
+        <ul class="menu">
+            <li class="logo">
+                <a href="#">
+                    <img src="./img/TecnoMente.png">
+                </a>
+            </li>
+            <li>
+                <a href="./index.html"> Inicio </a>
+            </li>
+            <li>
+                <a href="./contactenos.html"> Suscribete </a>
+            </li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <h1> Suscribete para recibir más información</h1>
+
+        <div>
+            <form>
+                <section class="section-flex">
+
+                    <article class="elemnt-form">
+                        <div class="label">
+                            <label for="">Tipo de suscripción:</label>
+                        </div>
+                        <select name="tiposuscripcion" id="tipodesuscripcion">
+                            <option value="-">Seleccione una Opcion</option>
+                            <option value=" Semanal ">Semanal</option>
+                            <option value=" Mensual ">Mensual</option>
+                            <option value=" Anual ">Anual</option>
+                        </select>
+
+                    </article>
+
+                    <article class="elemnt-form">
+                        <div class="label">
+                            <label for="">Nombres</label>
+                        </div>
+                        <input type="text" name="nombres" id="nombres" placeholder="Escribe tu nombre completo">
+                    </article>  
+                    
+                    <article class="elemnt-form">
+                        <div class="label">
+                            <label for="">Email</label>
+                        </div>
+                        <input type="text" name="email" id="email" placeholder="Escribe tu correo">
+                    </article> 
+
+                    <article class="elemnt-form">
+                        <div class="label">
+                            <label for="">Temas de los que quieres enterarte</label>
+                        </div>
+                        <textarea name="mediodepago" id="mediodepago" cols="100" rows="10"></textarea>
+                    </article> 
+
+                    <article class="elemnt-form">
+                        <div class="label">
+                            <label for="">Medio de pago</label>
+                        </div>
+                        <input type="checkbox" name="echk1" id="echk1" value="html"> Efecty
+                        <input type="checkbox" name="echk2" id="echk2" value="css"> Tarjeta
+                        <input type="checkbox" name="echk3" id="echk3" value="js"> Bitcoin
+                    </article> 
+
+                    <article class="btn-article">
+                        <button type="submit" onclick="siguiente()"> Siguiente </button>                       
+                    </article> 
+
+                </section>
+            </form>
+        </div>
+
+    </div>
+
+
+    <footer>
+        <p> Creado por Edison Liberato </p>
+    </footer>
+
+    <script src="./EjecutablePagina.js"></script>
+
+</body>
+</html>
